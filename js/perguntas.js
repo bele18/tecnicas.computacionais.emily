@@ -1,95 +1,101 @@
 export const perguntas = [
     {
-        enunciado: "Você prefere destinos mais urbanos ou em meio à natureza?",
+        enunciado: "Você prefere viajar para destinos modernos ou históricos?",
         alternativas: [
             {
-                texto: "Urbano", 
+                texto: "modernos",
                 afirmacao: [
-                    "Destinos urbanos são perfeitos pra quem ama movimento, cultura, gastronomia e vida noturna.",
-                    "Exemplos de viagens urbanas incríveis: Nova York, Tóquio, Paris, São Paulo, Londres."
-                ]
+                    "Destinos modernos são cidades vibrantes e tecnológicas, com vida noturna, compras e arquitetura contemporânea.",
+                    "Exemplos: Nova York, Dubai, Tóquio, Singapura, Londres."
+                ],
+                proxima: 1,
             },
             {
-                texto: "Natureza",
+                texto: "históricos",
                 afirmacao: [
-                    "Viajar em contato com a natureza traz paz e conexão com o mundo ao seu redor.",
-                    "Exemplos: Chapada dos Veadeiros, Noruega, Fernando de Noronha, Amazônia, Islândia."
-                ]
+                    "Destinos históricos são repletos de cultura, monumentos antigos e uma vibe clássica que nos leva a outra época.",
+                    "Exemplos: Roma, Atenas, Jerusalém, Cusco, Cairo."
+                ],
+                proxima: 2,
             }
         ]
     },
     {
-        enunciado: "Você curte mais clima quente ou frio durante a viagem?",
+        enunciado: "Em viagens modernas, o que te atrai mais?",
         alternativas: [
             {
-                texto: "Quente",
+                texto: "compras e entretenimento",
                 afirmacao: [
-                    "Sol, mar, piscina e muita vitamina D! Viagens quentinhas são ideais pra relaxar e curtir.",
-                    "Exemplos: Maldivas, Rio de Janeiro, Tailândia, Grécia, Caribe."
-                ]
+                    "Destinos perfeitos pra quem ama shopping, shows e agitação urbana.",
+                    "Ex: Los Angeles, Paris, Las Vegas."
+                ],
+                proxima: 3,
             },
             {
-                texto: "Frio",
+                texto: "tecnologia e inovação",
                 afirmacao: [
-                    "Friozinho, chocolate quente, neve e casacos estilosos? Te entendo demais!",
-                    "Exemplos: Suíça, Canadá, Bariloche, Gramado, Finlândia."
-                ]
+                    "Acharemos a cidade ideal, vá para 3."
+                ],
+                proxima: 4,
             }
         ]
     },
     {
-        enunciado: "Você prefere fazer uma viagem mais relax ou cheia de aventura?",
+        enunciado: "Você gosta de viagens com imersão cultural e costumes locais?",
         alternativas: [
             {
-                texto: "Relax total",
+                texto: "sim.",
                 afirmacao: [
-                    "Você merece descanso! Pra você, viagem boa é sombra e água fresca.",
-                    "Sugestões: Ilhas Maldivas, resort no nordeste, cruzeiros, spas na Toscana."
-                ]
+                    "Roteiros culturais te levam a conhecer tradições, culinária típica e a alma do lugar.",
+                    "Ex: Marrakech, Kyoto, Oaxaca."
+                ],
+                proxima: 5,
             },
             {
-                texto: "Aventura é comigo",
+                texto: "não.",
                 afirmacao: [
-                    "Se não tiver trilha, subida, esporte radical ou perrengue chique, nem quero!",
-                    "Exemplos: Machu Picchu, Patagônia, safári na África, Nova Zelândia, chapadas."
-                ]
+                    "vá para 4."
+                ],
+                proxima: 6,
             }
         ]
     },
     {
-        enunciado: "Você prefere viajar sozinho(a) ou acompanhado(a)?",
+        enunciado: "Prefere viagens com roteiros bem definidos ou explorar livremente?",
         alternativas: [
             {
-                texto: "Sozinho(a)",
+                texto: "roteiros definidos",
                 afirmacao: [
-                    "Viajar solo é libertador! Você faz seu próprio roteiro e se redescobre no caminho.",
-                    "Destinos incríveis pra solo trips: Portugal, Argentina, Japão, Chile, Holanda."
-                ]
+                    "5 viagens organizadas pra quem ama planejamento e aproveitar cada minuto.",
+                    "Excursões na Europa, Cruzeiros pelo Caribe, Pacotes Disney, Viagens com guia na Ásia, Roteiros por cidades italianas."
+                ],
+                proximo: 7,
             },
             {
-                texto: "Acompanhado(a)",
+                texto: "explorar livremente",
                 afirmacao: [
-                    "Compartilhar experiências é tudo! Viajar com alguém torna tudo ainda mais especial.",
-                    "Destinos perfeitos pra duplas ou grupos: Disney, Cancún, Itália, Grécia, road trips no Brasil."
-                ]
+                    "3 destinos perfeitos pra quem curte se perder no mapa.",
+                    "Tailândia, Costa Rica, Islândia.",
+                    "Caso não se interesse por nenhum desses, vá para 5."
+                ],
+                proximo: 8,
             }
         ]
     },
     {
-        enunciado: "Você toparia um destino menos conhecido ou prefere os clássicos?",
+        enunciado: "Para viagens com toque mágico / fantasia",
         alternativas: [
             {
-                texto: "Quero algo diferente",
+                texto: "castelos e lendas medievais",
                 afirmacao: [
-                    "Explorar lugares fora do radar é viver aventuras únicas e autênticas!",
-                    "Sugestões: Albânia, Ilha de São Tomé, Eslovênia, Jalapão, Marrocos."
-                ]
+                    "Escócia, Alemanha (Rota dos Castelos), Transilvânia."
+                ],
+                proximo: 9,
             },
             {
-                texto: "Prefiro os clássicos",
+                texto: "cenários épicos e natureza de tirar o fôlego",
                 afirmacao: [
-                    "Os clássicos são clássicos por um motivo: sempre encantam!",
-                    "Sugestões: Paris, Roma, Nova York, Londres, Buenos Aires."
+                    "Nova Zelândia, Noruega, Islândia, Patagônia, Alpes Suíços."
                 ]
             }
         ]

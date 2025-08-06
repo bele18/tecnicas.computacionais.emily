@@ -1,4 +1,4 @@
-const nomes = ["Fantasia", "Ficção Cientifica", "Finais felizes", "Finais em aberto", "leve e divertido","Intenso e dramático", "Romance de época"];
+const nomes = ["Aventureiro", "Explorador Urbano", "Apaixonado por Cultura", "Viciado em Natureza", "Turista Gastronômico"];
 
 export function aleatorio (lista){
     const posicao = Math.floor(Math.random()* lista.length);
